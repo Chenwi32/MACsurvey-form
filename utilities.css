@@ -43,16 +43,19 @@
    display: inline-block;
    padding: 0.5em 1.2em;
    cursor: pointer;
-   background-color: var(--primary);
-   color: white;
-   border-radius: 10px;
+   background-color: #d8bfd8;
+   color: rgb(80, 79, 79);
+   border-radius: 20px;
    transition: 0.2s;
    outline: none;
    text-decoration: none;
+   width: 90%;
+   height: 45px;
 }
 
 .btn:hover{
     transform: scale(0.98);
+    color: rgb(0, 0, 0);
 }
 
 .btn-outline{
